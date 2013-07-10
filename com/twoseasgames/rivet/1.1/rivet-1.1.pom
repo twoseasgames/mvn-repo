@@ -6,21 +6,13 @@
   <groupId>com.twoseasgames</groupId>
 
 
-  <version>1.0</version>
+  <version>1.1</version>
 
-  <artifactId>viewport</artifactId>
+  <artifactId>rivet</artifactId>
   <packaging>jar</packaging>
-  <name>Viewport</name>
-  <description>Relative Viewport layer positionning for PlayN</description>
-  <url>https://github.com/twoseasgames/viewport</url>
-
-  <dependencies>
-    <dependency>
-      <groupId>com.googlecode.playn</groupId>
-      <artifactId>playn-core</artifactId>
-      <version>1.7.2</version>
-    </dependency>
-  </dependencies>
+  <name>Rivet</name>
+  <description>Rivet Is a Very Elementary Turbine</description>
+  <url>https://github.com/twoseasgames/rivet</url>
 
   <licenses>
     <license>
@@ -33,6 +25,8 @@
   <properties>
     <github.global.server>github</github.global.server>
   </properties>
+
+
 
   <build>    
     <resources>
@@ -96,6 +90,4 @@
           <url>https://raw.github.com/twoseasgames/mvn-repo/master</url>
       </repository>
   </distributionManagement>
-
-
 </project>
